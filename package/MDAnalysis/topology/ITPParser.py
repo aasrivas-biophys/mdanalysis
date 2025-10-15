@@ -524,7 +524,7 @@ class ITPParser(TopologyReaderBase):
 
     """
 
-    format = "ITP"
+    format = ["ITP", "TOP"]
 
     def parse(
         self,
